@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My To Do List</string>
+    <string name="text">Text</string>
+    <string name="dateModified">Date</string>
+    <string name="action_add_note">add</string>
+    <string name="title">Title</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999">
+    <EditText
+        android:id="@+id/note_Title"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:background="#FFF"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_Text"
+        android:layout_toRightOf="@+id/dueDate"
+        android:text="Category"/>
+
+    <EditText
+        android:id="@+id/dueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_Text"
+        android:text="Due Date"/>
+
+
+
+    <EditText
+        android:id="@+id/note_Text"
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:layout_below="@+id/note_Title"
+        android:layout_centerHorizontal="true"
+        android:text="Notes Notes Notes"
+        android:background="#FFF"
+        android:gravity="top"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/note_Text"
+        android:text="Completed"/>
+
+    <Button
+        android:id="@+id/save_Button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:text="Save"/>
+
+</RelativeLayout>
